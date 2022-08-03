@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.namecolor{
+    color: orange;
+}
+
+.topleft {
+    width: 40%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+    margin-top: 10px;
+}
+
+.topright img{
+    width: 45%;
+    margin-top: 60px;
+
+}
+
+.topbanner {
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+
+/* section{
+    height: 500px;
+} */
+
+.topleftbutton{
+    text-decoration: none;
+    /* background-color: orange; */
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+}
+
+.middleleft img{
+    width: 45%;
+    float: left;
+    margin-top: 60px;
+    margin-left: 3%;
+    padding: 1%;
+
+}
+
+.middleright {
+    width: 35%;
+    float: right;
+    margin-right: 130px;
+    margin-top: 60px;
+}
+
+.middlebanner {
+    background-image: url("middle.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: bottom;
+    background-position-x: right;
+}
+
+.bottom {
+    height: 500px;
+    background-image: url("exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bottomleft{
+    float: left;
+    width: 35%;
+    margin: 5% 0% 10% 7%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.bottomright{
+    float: right;
+    width: 35%;
+    margin: 5% 7% 10% 0%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.bottomheading {
+    text-align: center;
+    font-size: 40px;
+}
+
+#bottomleft{
+    border-left: 8px solid tomato;
+}
+
+#bottomright{
+    border-left: 8px solid blue;
+}
